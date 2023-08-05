@@ -36,11 +36,11 @@ main {
 }
 
 .type {
-    padding: 3em;
-    max-width: 18.75rem;
+    padding: 4.25em 3.15em;
+    max-width: 19rem;
 }
 
-@media screen and (max-width: 53.75rem){
+@media screen and (max-width: 54.5rem){
     main {
         flex-direction: column;
     }
@@ -49,29 +49,30 @@ main {
 .sedan {
     background-color: var(--orange);
 }
- .suv {
+
+.suv {
     background-color: var(--cyan);
  }
 
- .luxury {
+.luxury {
     background-color: var(--dark-cyan);
  }
 
 h1 {
     font-family: 'Big Shoulders Display', sans-serif;
-    padding: .75em 0;
+    padding: .9em 0;
 }
 
 .text {
-    padding-bottom: 5em;
-    line-height: 1.5;
+    padding-bottom: 6.5em;
+    line-height: 1.65;
     color: var(--white-transparent);
 }
 
 div> a {
     background-color: var(--grey);
-    border-radius: 1.5em;
-    padding: 0.5em 1.5em;
+    border-radius: 1.75em;
+    padding: 1em 2em;
     text-decoration: none;
 }
 
