@@ -26,7 +26,7 @@ This is a solution to the 3-column Preview Card Component challenge from Fronten
 
 ## Useful resources
 
-* 
+* https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced
 
 ## Acknowledgements
 
