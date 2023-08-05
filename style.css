@@ -31,7 +31,8 @@ main {
     justify-content: center;
     align-items: center;
     margin: auto;
-
+    border-radius: .5rem;
+    overflow: hidden;
 }
 
 .type {
