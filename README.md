@@ -17,7 +17,8 @@ This is a solution to the 3-column Preview Card Component challenge from Fronten
 
 ### What I learned
 
-*
+* Got confused between link and <a> tags... Second "useful resource " helped.
+* With @media use 2 {{}} -> @media screen and (max-width:...){ tag { whatever change}}
 
 ## Links
 
@@ -27,6 +28,7 @@ This is a solution to the 3-column Preview Card Component challenge from Fronten
 ## Useful resources
 
 * https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced
+* https://stackoverflow.com/questions/35138811/difference-between-a-and-link#:~:text=is%20basically%20used%20for,anchor%20tag%20which%20defines%20hyperlink.
 
 ## Acknowledgements
 

@@ -1,0 +1,115 @@
+:root {
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --dark-cyan: hsl(179, 100%, 13%);
+
+    --white-transparent: hsla(0, 0%, 100%, 0.75);
+    --grey: hsl(0, 0%, 95%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--grey);
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--grey);
+    /* font-size: 0.9375rem; */
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.type {
+    padding: 3em;
+    max-width: 18.75rem;
+}
+
+@media screen and (max-width: 53.75rem){
+    main {
+        flex-direction: column;
+    }
+}
+
+.sedan {
+    background-color: var(--orange);
+}
+ .suv {
+    background-color: var(--cyan);
+ }
+
+ .luxury {
+    background-color: var(--dark-cyan);
+ }
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    padding: .75em 0;
+}
+
+.text {
+    padding-bottom: 5em;
+    line-height: 1.5;
+    color: var(--white-transparent);
+}
+
+div> a {
+    background-color: var(--grey);
+    border-radius: 1.5em;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+}
+
+div> a:hover {
+    color: var(--grey);
+    border: 0.15em solid var(--grey);
+}
+
+.sedan> a:hover {
+    background-color: var(--orange);
+}
+
+.suv> a:hover {
+    background-color: var(--cyan);
+}
+
+.luxury> a:hover {
+    background-color: var(--dark-cyan);
+}
+
+.sedan> a {
+    color: var(--orange);
+}
+
+.suv> a {
+    color: var(--cyan);
+}
+
+.luxury> a {
+    color: var(--dark-cyan);
+}
+
+
+.attribution { 
+    font-size: 0.625rem; 
+    margin-bottom: 0.5em;
+    color: var(--cyan);
+}
+
+.attribution a {
+    color: var(--dark-cyan); 
+}
